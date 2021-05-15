@@ -10,16 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="body">
     <!--main wrapper start-->
     <div id="wrap">
 
          <!--left sidebar start-->
          <div class="sidebar">
-            <a class="active" href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a class="active" href="#projects">MY PROJECTS</a>
+            <a href="#about">ABOUT</a>
+            <!-- <a href="#contact">FIELD 3</a> -->
+            <a href="#contact">CONTACT</a>
           </div>
         <!--left sidebar end-->
 
@@ -28,11 +28,22 @@
 
         <!--title bar start-->
             <div id="title-bar">
-                <div id=title-wrap>
-                    <h1 id="title">Hello! I am Voicescu Bogdan.</h1>
-                    <h2 id="subtitle">A web developer</h2>
+                <div id="title-description-wrap">
+                    <div id=title-wrap>
+                        <h1 id="title">Hello! I am Voicescu Bogdan.</h1>
+                        <h2 id="subtitle">A web developer</h2>
+                    </div>
+                    <p id="short-description">This website will showcase all my work as well as the website itself.<br>Created from scratch as a portfolio and guinea pig for any new implementation I learn.<br>Have a nice read! :)</p>
                 </div>
-                <p id="short-description">This website will showcase all my work as well as the website itself.<br>Created from scratch as a portfolio and guinea pig for any new implementation I learn.<br>Have a nice read :).</p>
+                <div id="background-changer">
+                    <p>Background Changer</p>
+                    <div>
+                    <input class="color1" type="color" name="color1" value="#2362af">
+                    <input class="color2" type="color" name="color2" value="#d5de21">
+                    </div>
+                    <p>Current CSS Background</p>
+                    <p id="current-css-display">#2362af ; #d5de21</p>
+                </div>
             </div>
          <!--title bar end-->
             
@@ -76,6 +87,6 @@
 
     </div>
     <!--main wrapper end-->
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
