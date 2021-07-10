@@ -5,12 +5,54 @@ flex-direction: column;
 text-align: center;
 background-color: #359967ce;
 height: 100vh;
+}
+
+/* Navbar */
+.navbar{    
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(0, 124, 10);
+  }
+/* Navbar */
+
+header{
+    padding-top: 70px;
+}
+.projects{
+    margin: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+}
+.project{
 
 }
-.header{
-    padding-top: 100px;
-}
 .about{
+    margin: 10px;
     width: 45em;
     display: flex;
     justify-self: center;
@@ -32,3 +74,83 @@ height: 100vh;
     margin: 20px 0px 20px 20px;
     text-align: left;
 }
+
+/* Tachyons */ 
+.bg-center {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.br2 {
+    border-radius: .25rem;
+}
+.dib {
+    display: inline-block;
+}
+.inline-flex {
+    display: inline-flex;
+}
+.items-center {
+    align-items: center;
+}
+.h2 {
+    height: 2rem;
+}
+.link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+}
+.link:link, .link:visited {
+    transition: color .15s ease-in;
+}
+.link:hover {
+    transition: color .15s ease-in;
+}
+.link:active {
+    transition: color .15s ease-in;
+}
+.link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+}
+.w2 {
+    width: 2rem;
+}
+.w-100 {
+    width: 100%;
+}
+.white-60 {
+    color: black;
+}
+.bg-transparent {
+    background-color: transparent;
+}
+.hover-white:hover {
+    color: #fff;
+}
+.hover-white:focus {
+    color: #fff;
+}
+.pa2 {
+    padding: .5rem;
+}
+.pr2 {
+    padding-right: .5rem;
+}
+.ma2 {
+    margin: .5rem;
+}
+.ml3 {
+    margin-left: 1rem;
+}
+.tc {
+    text-align: center;
+}
+.f6 {
+    font-size: .875rem;
+}
+@media screen and (min-width: 60em) {
+    .tc-l {
+        text-align: center;
+    }
+}
+/* Tachyons */

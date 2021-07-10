@@ -1,13 +1,10 @@
 import React from 'react';
 
 const Project = () => {
-    return (
-<div className="project">
-        <div className="project-about">
+    return(
+        <div className="project">
+
         </div>
-        <img src="" alt="" className="project-photo" />
-        
-    </div>
     )
 }
 
