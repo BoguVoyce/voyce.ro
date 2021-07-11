@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/voyce.ro/static/css/main.b787bab3.chunk.css",
-    "main.js": "/voyce.ro/static/js/main.bf9cde2a.chunk.js",
-    "main.js.map": "/voyce.ro/static/js/main.bf9cde2a.chunk.js.map",
+    "main.js": "/voyce.ro/static/js/main.63dc2bb7.chunk.js",
+    "main.js.map": "/voyce.ro/static/js/main.63dc2bb7.chunk.js.map",
     "runtime-main.js": "/voyce.ro/static/js/runtime-main.02e55b8f.js",
     "runtime-main.js.map": "/voyce.ro/static/js/runtime-main.02e55b8f.js.map",
     "static/js/2.7284ff56.chunk.js": "/voyce.ro/static/js/2.7284ff56.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.02e55b8f.js",
     "static/js/2.7284ff56.chunk.js",
     "static/css/main.b787bab3.chunk.css",
-    "static/js/main.bf9cde2a.chunk.js"
+    "static/js/main.63dc2bb7.chunk.js"
   ]
 }
