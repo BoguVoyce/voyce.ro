@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/voyce.ro/static/css/main.b787bab3.chunk.css",
+    "main.js": "/voyce.ro/static/js/main.63dc2bb7.chunk.js",
+    "main.js.map": "/voyce.ro/static/js/main.63dc2bb7.chunk.js.map",
+    "runtime-main.js": "/voyce.ro/static/js/runtime-main.02e55b8f.js",
+    "runtime-main.js.map": "/voyce.ro/static/js/runtime-main.02e55b8f.js.map",
+    "static/js/2.7284ff56.chunk.js": "/voyce.ro/static/js/2.7284ff56.chunk.js",
+    "static/js/2.7284ff56.chunk.js.map": "/voyce.ro/static/js/2.7284ff56.chunk.js.map",
+    "static/js/3.2dd939b4.chunk.js": "/voyce.ro/static/js/3.2dd939b4.chunk.js",
+    "static/js/3.2dd939b4.chunk.js.map": "/voyce.ro/static/js/3.2dd939b4.chunk.js.map",
+    "index.html": "/voyce.ro/index.html",
+    "static/css/main.b787bab3.chunk.css.map": "/voyce.ro/static/css/main.b787bab3.chunk.css.map",
+    "static/js/2.7284ff56.chunk.js.LICENSE.txt": "/voyce.ro/static/js/2.7284ff56.chunk.js.LICENSE.txt",
+    "static/media/my-photo.47f75937.jpg": "/voyce.ro/static/media/my-photo.47f75937.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02e55b8f.js",
+    "static/js/2.7284ff56.chunk.js",
+    "static/css/main.b787bab3.chunk.css",
+    "static/js/main.63dc2bb7.chunk.js"
+  ]
+}
