@@ -26,6 +26,14 @@ header{
 /* Header */
 .project-card{
     border:rgba(51, 51, 51, 0.904) solid 5px;
+    background-color: rgba(51, 51, 51, 0.904);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0.1em 0.2em 0.4em black;
+    height: 560px;
+}
+.project-card .card-img-top{
+    border-radius: 20px;
 }
 .about .card-horizontal {
     display: flex;
@@ -41,8 +49,33 @@ header{
     border-radius: 20px;
     box-shadow: 0.1em 0.2em 0.4em black;
 }
+.project-card .card-body{
+position: relative;
+}
+.project-card .card-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card-footer .text-muted{
+    margin-left: 10px;
+}
 .about .card-body{
     padding: 1rem 1rem 0px 0.3rem;
+}
+.portfolio{
+    height:auto;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.portfolio .card-text{
+    padding-bottom: 30px;
+}
+.portfolio .card-title{
+    text-align: center;
 }
 .about .card-img{
     border: solid 10px rgba(27, 27, 27, 0.233);
