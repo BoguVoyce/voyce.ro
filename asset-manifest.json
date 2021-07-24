@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/voyce.ro/static/css/main.a6566998.chunk.css",
-    "main.js": "/voyce.ro/static/js/main.3f5d93a6.chunk.js",
-    "main.js.map": "/voyce.ro/static/js/main.3f5d93a6.chunk.js.map",
+    "main.css": "/voyce.ro/static/css/main.6a53c19e.chunk.css",
+    "main.js": "/voyce.ro/static/js/main.99282555.chunk.js",
+    "main.js.map": "/voyce.ro/static/js/main.99282555.chunk.js.map",
     "runtime-main.js": "/voyce.ro/static/js/runtime-main.02e55b8f.js",
     "runtime-main.js.map": "/voyce.ro/static/js/runtime-main.02e55b8f.js.map",
     "static/js/2.7284ff56.chunk.js": "/voyce.ro/static/js/2.7284ff56.chunk.js",
@@ -10,17 +10,17 @@
     "static/js/3.2dd939b4.chunk.js": "/voyce.ro/static/js/3.2dd939b4.chunk.js",
     "static/js/3.2dd939b4.chunk.js.map": "/voyce.ro/static/js/3.2dd939b4.chunk.js.map",
     "index.html": "/voyce.ro/index.html",
-    "static/css/main.a6566998.chunk.css.map": "/voyce.ro/static/css/main.a6566998.chunk.css.map",
+    "static/css/main.6a53c19e.chunk.css.map": "/voyce.ro/static/css/main.6a53c19e.chunk.css.map",
     "static/js/2.7284ff56.chunk.js.LICENSE.txt": "/voyce.ro/static/js/2.7284ff56.chunk.js.LICENSE.txt",
+    "static/media/PixelCity.36ee9328.mp4": "/voyce.ro/static/media/PixelCity.36ee9328.mp4",
     "static/media/etchasketch.06b9834d.jpg": "/voyce.ro/static/media/etchasketch.06b9834d.jpg",
     "static/media/myphoto.47f75937.jpg": "/voyce.ro/static/media/myphoto.47f75937.jpg",
-    "static/media/App.css": "/voyce.ro/static/media/pexels-pixabay-531880.d9092ba7.jpg",
     "static/media/rockpaperscissors.3d565376.png": "/voyce.ro/static/media/rockpaperscissors.3d565376.png"
   },
   "entrypoints": [
     "static/js/runtime-main.02e55b8f.js",
     "static/js/2.7284ff56.chunk.js",
-    "static/css/main.a6566998.chunk.css",
-    "static/js/main.3f5d93a6.chunk.js"
+    "static/css/main.6a53c19e.chunk.css",
+    "static/js/main.99282555.chunk.js"
   ]
 }
