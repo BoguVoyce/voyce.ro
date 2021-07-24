@@ -115,12 +115,7 @@ position: relative;
     background: #997080;
   }
 @media screen and (max-width: 810px){
-.social-media .h2{
-    height: 20px;
-    width: 20px;
-    margin:0px;
-    padding: 0px;
-}
+
     .about{
     margin: 10px;
 }
