@@ -4,22 +4,23 @@ import myphoto from './myphoto.jpg';
 
 const About = () => {
     return(
-            <div className="card about">
-                <div className="card-horizontal">
+        <div className="card about">
+            <div className="card-horizontal shadow-sm">
+                <h4 className="card-title my-name">Hello There!</h4>
+                <h5 className="card-title my-description">My Name Is Bogdan Voicescu</h5>
+                <hr />
+                <div className="card-body">
                     <div className="img-square-wrapper">
                         <img className="card-img" src={myphoto} alt="Me on a trip outdoors" />
                     </div>
-                    <div className="card-body">
-                        <h4 className="card-title my-name">I am Bogdan</h4>
-                        <h5 className="card-title my-description">-Web Developer-</h5>
-                        <p className="card-text">- I am 25 years old, I make my living as a security guard, dreaming about working in web development. 
-                        <br />Well I've been dreaming for the past year and a half as I was learning everything I could in the field. 
-                        So far I got the hang of HTML, CSS, JavaScript, Bootstrap, React, Git, Github, and npm with much more improvement to follow. 
-                        <br /><br /> - Feel free to take a look at my projects and please let me know what you think, even if you're not hiring.
-                        </p>
+                    <div className="card-text">
+                        <p>- I have been studying Web Development for about 2 years now and I'm really passionate about my work. I like creating and styling websites, so far I've explored HTML, CSS, JavaScript, Bootstrap, React.js, npm and got some experience with Git, GitHub and VSCode. </p>
+                        <p>- I would love to work in web development and have the opportunity to learn more.</p>
+                        <p>- My studies have been slowed by my work which doesn't involve coding of any kind. Despite that, I continue to learn and look for a job that I can dedicate myself to.</p>
                     </div>
                 </div>
             </div>
+        </div>
     )
 }
 

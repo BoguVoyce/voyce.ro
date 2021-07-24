@@ -1,53 +1,77 @@
-body{
-    margin:0;
-    padding:0;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
+/* .navbar{
+    position: fixed;
+    right: 15px;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.navbar a:link, .navbar a:visited {
+    color: rgba(255, 255, 255, 0.466);
+    text-align: center;
+    text-decoration: white;
+    font-size: 3em;
+    margin:0;
+    padding: 0;
+  } */
 .app{
 display: flex;
 align-items: center;
 flex-direction: column;
-background: #8e9eab;  /* fallback for old browsers */
-background: url(../components/pexels-pixabay-531880.jpg) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
 }
-/* Header */
-header{
-    margin: 4rem auto 2rem auto;
-    font-size: 4rem;
+.about{
+    text-align: center;
+    max-width:850px;
+    margin: 0px 15px 53vh 15px;
+    padding: 15px;
+    background-color: rgba(51, 51, 51, 0.904);
+    color: white;
+    border-radius: 5px;
 }
-.greeting{
-    margin: auto auto 2rem auto;
-    font-size: 4rem;
+.about .card-body{
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row-reverse;
 }
-/* Header */
+.about .card-img{
+    margin-top: 5px;
+    border: solid 5px rgba(27, 27, 27, 0.233);
+    border-radius: 200px;
+}
+.my-name{
+    font-size: 1.5rem;
+}
+.about .img-square-wrapper{
+    max-width: 250px;
+    max-height: 250px;
+}
+.my-description{
+    font-size: 1.2rem;
+}
+.about .card-text{
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 0.5rem;
+}
 .project-card{
     border:rgba(51, 51, 51, 0.904) solid 5px;
     background-color: rgba(51, 51, 51, 0.904);
     color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0.1em 0.2em 0.4em black;
     height: 560px;
 }
 .project-card .card-img-top{
-    border-radius: 20px;
-}
-.about .card-horizontal {
-    display: flex;
-    flex-direction: row-reverse;
-}
-.about{
-    text-align: center;
-    max-width:780px;
-    margin: 0px 15px 15px 15px;
-    padding: 15px;
-    background-color: rgba(51, 51, 51, 0.904);
-    color: white;
-    border-radius: 20px;
-    box-shadow: 0.1em 0.2em 0.4em black;
+    border-radius: 5px;
 }
 .project-card .card-body{
 position: relative;
@@ -63,46 +87,38 @@ position: relative;
 .card-footer .text-muted{
     margin-left: 10px;
 }
-.about .card-body{
-    padding: 1rem 1rem 0px 0.3rem;
-}
 .portfolio{
     height:auto;
     max-width: 100%;
     margin-top: 20px;
 }
 .portfolio .card-text{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .portfolio .card-title{
     text-align: center;
 }
-.about .card-img{
-    border: solid 10px rgba(27, 27, 27, 0.233);
-    border-radius: 200px;
+.bg-transparent:focus {
+    outline: none;
+    box-shadow: none;
 }
-.my-name{
-    font-size: 1.5rem;
-}
-.about .img-square-wrapper{
-    max-width: 350px;
-}
-.my-description{
-    font-size: 1.2rem;
-}
-.about .card-text{
-    font-size: 1rem;
-    text-align: left;
-    margin-top: 1rem;;
-}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #997080;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(39, 39, 39, 0.904);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #997080;
+  }
 @media screen and (max-width: 810px){
 .about{
     margin: 10px;
 }
-.about .card-img{
-    border-radius: 200px;
-}
-.about .card-horizontal{
+.about .card-body{
     flex-direction: column-reverse;
     align-items: center;
 }

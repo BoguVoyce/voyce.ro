@@ -6,7 +6,7 @@ import Project4 from './project4';
 
 const Projects = () => {
     return(
-        <div className="container">
+        <div className="container" id="projects">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <Project />
                 <Project2 />
