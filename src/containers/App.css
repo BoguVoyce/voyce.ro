@@ -12,6 +12,9 @@
     font-size: 2rem;
     padding-top: 0;
 }
+.navbar a:hover{
+    color: white;
+}
 .header{
     display: flex;
     align-items: center;
@@ -33,10 +36,10 @@
 }
 .about{
     text-align: center;
-    max-width:900px;
-    margin: 30px 15px 100vh 15px;
+    max-width:1000px;
+    margin: 30px 15px 40px 15px;
     padding: 15px;
-    background-color: rgba(51, 51, 51, 0.904);
+    background-color: rgba(51, 51, 51, 0.703);
     color: white;
     border-radius: 5px;
 }
@@ -46,13 +49,12 @@
     margin-bottom: 0;
 }
 .about .details{
-    padding: 0px 0px 0px 0px;
+    background-color: rgba(51, 51, 51, 0.904);
+    padding: 10px;
     display: flex;
     flex-direction: row-reverse;
-    margin-bottom: 10px;
 }
 .about .card-img{
-    margin-top: 5px;
     border: solid 5px rgba(27, 27, 27, 0.233);
     border-radius: 200px;
 }
@@ -79,6 +81,7 @@
 }
 .education-container .card-img-top{
     max-width: 300px;
+    margin: 5px;
 }
 .university{
     margin-top: 10px;
@@ -92,6 +95,24 @@
 }
 .my-description{
     font-size: 1.2rem;
+}
+.projects .project-card, .about .project-card, .details{
+    border: solid 2px rgba(27, 27, 27, 0.205);
+    border-radius: 5px;
+}
+.projects-container{
+    background-color: rgba(51, 51, 51, 0.703);
+    position: relative;
+    color: white;
+    margin: 10px 13px 10px 13px;
+    border-radius: 5px;
+}
+.projects .card-img-top{
+    padding:5px;
+}
+.projects-header{
+    margin: 10px 15px 0px 15px;
+    border-radius: 5px;
 }
 .project-card{
     border:rgba(51, 51, 51, 0.904) solid 5px;
@@ -126,7 +147,7 @@
 .portfolio .card-text{
     padding-bottom: 20px;
 }
-.portfolio .card-title{
+.projects .card-title{
     text-align: center;
 }
 .bg-transparent:focus {
@@ -181,6 +202,17 @@
 @media screen and (max-width: 644px){
     .navbar a:link, .navbar a:visited{
         font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 470px){
+    .navbar a:link, .navbar a:visited{
+        font-size: 0.6rem;
+    }
+    .titu{
+        height: 630px;
+    }
+    .faculty{
+        height: 550px;
     }
 }
 /* @media screen and (max-width: 644px){

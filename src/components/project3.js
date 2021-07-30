@@ -7,7 +7,8 @@ const Project3 = () => {
             <img className="bd-placeholder-img card-img-top" src={backgroundchanger} alt="Rock Paper Scissors"/>
             <div className="card-body">
             <h5 className="card-title">CSS Background Changer</h5>
-              <p className="card-text">This is a background generator, just pick two colors and it will mix them in a gradient and set them as the background.<br /> Fun thing you can add to a website.</p>
+            <hr />
+              <p className="card-text"> - This is a background generator, just pick two colors and it will mix them in a gradient and set them as the background.<br /> - Fun thing you can add to a website.</p>
               <div className="d-flex justify-content-between align-items-center card-footer">
                 <div className="btn-group">
                   <a className="btn btn-sm btn-outline-secondary" href="https://bogvoicescu.github.io/BackgroundChanger/" role="button">Try It</a>

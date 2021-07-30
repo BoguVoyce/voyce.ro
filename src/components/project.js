@@ -7,7 +7,8 @@ const Project = () => {
             <img className="bd-placeholder-img card-img-top" src={rockpaperscissors} alt="Rock Paper Scissors"/>
             <div className="card-body">
             <h5 className="card-title">Rock Paper Scissors Game</h5>
-              <p className="card-text">It's built with simple HTML and CSS. You make your choice, the computer makes it's choice and then they are compared and put on the scoreboard if it's not a draw.</p>
+            <hr />
+              <p className="card-text"> - It's built with simple HTML and CSS.<br /> - You make your choice, the computer makes it's choice and then they are compared and put on the scoreboard if it's not a draw.</p>
               <div className="d-flex justify-content-between align-items-center card-footer">
                 <div className="btn-group">
                   <a className="btn btn-sm btn-outline-secondary" href="https://bogvoicescu.github.io/RockPaperScissors/" role="button">Play Game</a>

@@ -3,7 +3,7 @@ import utm from './utm.jpg';
 
 const University = () => {
     return(
-        <div className="col university">
+        <div className="col university titu">
           <div className="card shadow-sm project-card">
             <img className="bd-placeholder-img card-img-top" src={utm} alt="Titu Maiorescu University"/>
             <div className="card-body">

@@ -7,7 +7,7 @@ import Certifications from './certifications';
 const About = () => {
     return(
         <div className="card about" id="about">
-        <h4>About</h4>
+        <h4>About me</h4>
         <hr />
             <div className="card-horizontal shadow-sm">
                 <div className="card-body details">
