@@ -1,9 +1,8 @@
 import './App.css';
-import About from '../components/about';
-import Projects from '../components/projects';
-import SocialMedia from '../components/socialmedia'
-import Navbar from '../components/navbar';
 import PixelCity from "../components/PixelCity.mp4";
+import Header from './header';
+import Content from './content';
+import Footer from './footer';
 
 function App() {
   return (
@@ -11,14 +10,10 @@ function App() {
       <video autoPlay muted loop id="myVideo">
         <source src={PixelCity} type="video/mp4" />
       </video>
-      {/* <Navbar />   */}
-        <div className ="app">
-          <SocialMedia />
-          <About />
-          <Projects />
-        </div>
+      <Header />
+      <Content />
+      <Footer />
       </div>
-    
   );
 }
 

@@ -3,10 +3,11 @@ import React from 'react';
 const Navbar = () =>{
     return (
     <div className="navbar">
-         <nav className="nav flex-column">
-            <a className="nav-link active" href="#projects">Projects</a>
-            <a className="nav-link" href="!#">Link</a>
-            <a className="nav-link" href="!#">Link</a>
+         <nav className="nav flex">
+            <a className="nav-link active" href="#content">About</a>
+            <a className="nav-link" href="#education">Education</a>
+            <a className="nav-link" href="#projects">Projects</a>
+            <a className="nav-link" href="#projects">Contact</a>
         </nav>
      </div>
     )

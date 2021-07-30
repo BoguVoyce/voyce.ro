@@ -1,15 +1,16 @@
 import React from 'react';
 import myphoto from './myphoto.jpg';
+import Education from './education';
+import Certifications from './certifications';
 
 
 const About = () => {
     return(
-        <div className="card about">
+        <div className="card about" id="about">
+        <h4>About</h4>
+        <hr />
             <div className="card-horizontal shadow-sm">
-                <h4 className="card-title my-name">Hello There!</h4>
-                <h5 className="card-title my-description">My Name Is Bogdan Voicescu</h5>
-                <hr />
-                <div className="card-body">
+                <div className="card-body details">
                     <div className="img-square-wrapper">
                         <img className="card-img" src={myphoto} alt="Me on a trip outdoors" />
                     </div>
@@ -20,6 +21,10 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <hr />
+            <Education />
+            <hr />
+            <Certifications />
         </div>
     )
 }

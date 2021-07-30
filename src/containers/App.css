@@ -5,62 +5,93 @@
   min-width: 100%;
   min-height: 100%;
 }
-
-/* .navbar{
-    position: fixed;
-    right: 15px;
-    padding: 0;
-}
-.nav{
-    display: flex;
-    flex-direction: column;
-}
 .navbar a:link, .navbar a:visited {
     color: rgba(255, 255, 255, 0.466);
     text-align: center;
     text-decoration: white;
-    font-size: 3em;
-    margin:0;
-    padding: 0;
-  } */
-.app{
-display: flex;
-align-items: center;
-flex-direction: column;
+    font-size: 2rem;
+    padding-top: 0;
 }
-.about{
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.greeting{
     text-align: center;
     max-width:850px;
-    margin: 0px 15px 53vh 15px;
+    margin: 0px 15px 100vh 15px;
     padding: 15px;
     background-color: rgba(51, 51, 51, 0.904);
     color: white;
     border-radius: 5px;
 }
-.about .card-body{
+.about{
+    text-align: center;
+    max-width:900px;
+    margin: 30px 15px 100vh 15px;
+    padding: 15px;
+    background-color: rgba(51, 51, 51, 0.904);
+    color: white;
+    border-radius: 5px;
+}
+.about h4{
+    align-self: flex-start;
+    margin-left: 6px;
+    margin-bottom: 0;
+}
+.about .details{
     padding: 0px 0px 0px 0px;
     display: flex;
     flex-direction: row-reverse;
+    margin-bottom: 10px;
 }
 .about .card-img{
     margin-top: 5px;
     border: solid 5px rgba(27, 27, 27, 0.233);
     border-radius: 200px;
 }
-.my-name{
-    font-size: 1.5rem;
-}
 .about .img-square-wrapper{
     max-width: 250px;
     max-height: 250px;
-}
-.my-description{
-    font-size: 1.2rem;
 }
 .about .card-text{
     font-size: 1rem;
     text-align: left;
     margin-left: 0.5rem;
+}
+.education-container{
+    max-width: 100%;
+}
+.about .certifications{
+    padding: 0;
+}
+.certifications .project-card{
+    height:450px;
+}
+.education-container .project-card{
+    max-height: 300px;
+}
+.education-container .card-img-top{
+    max-width: 300px;
+}
+.university{
+    margin-top: 10px;
+}
+.university .card{
+    display: flex;
+    flex-direction: row;
+}
+.my-name{
+    font-size: 1.5rem;
+}
+.my-description{
+    font-size: 1.2rem;
 }
 .project-card{
     border:rgba(51, 51, 51, 0.904) solid 5px;
@@ -74,7 +105,7 @@ flex-direction: column;
     border-radius: 5px;
 }
 .project-card .card-body{
-position: relative;
+    position: relative;
 }
 .project-card .card-footer{
     position: absolute;
@@ -114,9 +145,9 @@ position: relative;
   ::-webkit-scrollbar-thumb:hover {
     background: #997080;
   }
-@media screen and (max-width: 810px){
 
-    .about{
+@media screen and (max-width: 810px){
+.about{
     margin: 10px;
 }
 .about .card-body{
@@ -124,11 +155,33 @@ position: relative;
     align-items: center;
 }
 .about .card-text{
-    max-width: 500px;
     padding: 0.5em;
     padding-bottom: 1rem;
     font-size: 0.8rem;
 }
+}
+@media screen and (max-width: 685px){
+.university .card{
+    flex-direction: column;
+}
+.university{
+    height: 520px;
+}
+.university .card-img-top{
+    align-self: center;
+    height: 100%;
+    border: solid  rgba(51, 51, 51, 0.904);
+    border-radius: 5px;
+}
+.university .project-card{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+}
+@media screen and (max-width: 644px){
+    .navbar a:link, .navbar a:visited{
+        font-size: 1.2rem;
+    }
 }
 /* @media screen and (max-width: 644px){
 
