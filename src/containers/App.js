@@ -7,7 +7,7 @@ import Footer from './footer';
 function App() {
   return (
     <div id = "app" >
-      <video autoPlay muted loop id="myVideo">
+      <video autoPlay muted loop id="myVideo" loading="eager">
         <source src={PixelCity} type="video/mp4" />
       </video>
       <Header />
