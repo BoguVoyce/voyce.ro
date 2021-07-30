@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/voyce.ro/static/css/main.e032a327.chunk.css",
-    "main.js": "/voyce.ro/static/js/main.a611690a.chunk.js",
-    "main.js.map": "/voyce.ro/static/js/main.a611690a.chunk.js.map",
+    "main.css": "/voyce.ro/static/css/main.7d06cd95.chunk.css",
+    "main.js": "/voyce.ro/static/js/main.32107896.chunk.js",
+    "main.js.map": "/voyce.ro/static/js/main.32107896.chunk.js.map",
     "runtime-main.js": "/voyce.ro/static/js/runtime-main.02e55b8f.js",
     "runtime-main.js.map": "/voyce.ro/static/js/runtime-main.02e55b8f.js.map",
     "static/js/2.7284ff56.chunk.js": "/voyce.ro/static/js/2.7284ff56.chunk.js",
@@ -10,10 +10,10 @@
     "static/js/3.2dd939b4.chunk.js": "/voyce.ro/static/js/3.2dd939b4.chunk.js",
     "static/js/3.2dd939b4.chunk.js.map": "/voyce.ro/static/js/3.2dd939b4.chunk.js.map",
     "index.html": "/voyce.ro/index.html",
-    "static/css/main.e032a327.chunk.css.map": "/voyce.ro/static/css/main.e032a327.chunk.css.map",
+    "static/css/main.7d06cd95.chunk.css.map": "/voyce.ro/static/css/main.7d06cd95.chunk.css.map",
     "static/js/2.7284ff56.chunk.js.LICENSE.txt": "/voyce.ro/static/js/2.7284ff56.chunk.js.LICENSE.txt",
-    "static/media/FCC 1.7e3fa0f7.bmp": "/voyce.ro/static/media/FCC 1.7e3fa0f7.bmp",
-    "static/media/FCC 2.3df7e63b.bmp": "/voyce.ro/static/media/FCC 2.3df7e63b.bmp",
+    "static/media/FCC 1.a787dca8.bmp": "/voyce.ro/static/media/FCC 1.a787dca8.bmp",
+    "static/media/FCC 2.86ad1f94.bmp": "/voyce.ro/static/media/FCC 2.86ad1f94.bmp",
     "static/media/PixelCity.36ee9328.mp4": "/voyce.ro/static/media/PixelCity.36ee9328.mp4",
     "static/media/etchasketch.06b9834d.jpg": "/voyce.ro/static/media/etchasketch.06b9834d.jpg",
     "static/media/foi.ea085740.jpg": "/voyce.ro/static/media/foi.ea085740.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.02e55b8f.js",
     "static/js/2.7284ff56.chunk.js",
-    "static/css/main.e032a327.chunk.css",
-    "static/js/main.a611690a.chunk.js"
+    "static/css/main.7d06cd95.chunk.css",
+    "static/js/main.32107896.chunk.js"
   ]
 }
