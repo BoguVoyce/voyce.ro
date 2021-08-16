@@ -274,6 +274,14 @@
         height: 620px;
     }
 }
+@media screen and (max-width: 399px){
+    .education .titu{
+        height: 690px;
+    }
+    .education .faculty{
+        height: 630px;
+    }
+}
 @media screen and (max-width: 375px){
     .certifications .project-card{
         height: 450px;
