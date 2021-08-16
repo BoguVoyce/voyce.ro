@@ -279,7 +279,7 @@
         height: 690px;
     }
     .education .faculty{
-        height: 630px;
+        height: 650px;
     }
 }
 @media screen and (max-width: 375px){
@@ -296,7 +296,7 @@
         height: 710px;
     }
     .education .faculty{
-        height: 710px;
+        height: 730px;
     }
 }
 @media screen and (max-width: 330px){
