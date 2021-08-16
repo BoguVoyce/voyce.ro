@@ -2,7 +2,10 @@ import React from 'react';
 import myphoto from './myphoto.jpg';
 import Education from './education';
 import Certifications from './certifications';
-
+import Project from './project';
+import Project2 from './project2';
+import Project3 from './project3';
+import Project4 from './project4';
 
 const About = () => {
     return(
@@ -23,10 +26,20 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <hr />
             <Education />
-            <hr />
             <Certifications />
+        <div className="projects" id="projects">
+            <h4>Projects</h4>
+            <hr />
+        </div>
+            <div className="container projects" id="projects">
+                <div className="row row-cols-1 row-cols-sm-2 g-3 project-row">
+                    <Project />
+                    <Project2 />
+                    <Project3 />
+                </div>
+                <Project4 />
+            </div>  
         </div>
     )
 }
