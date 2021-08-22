@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/voyce.ro/static/css/main.4031e7c9.chunk.css",
-    "main.js": "/voyce.ro/static/js/main.8978b769.chunk.js",
-    "main.js.map": "/voyce.ro/static/js/main.8978b769.chunk.js.map",
-    "runtime-main.js": "/voyce.ro/static/js/runtime-main.5bc54e64.js",
-    "runtime-main.js.map": "/voyce.ro/static/js/runtime-main.5bc54e64.js.map",
-    "static/js/2.6413ce8f.chunk.js": "/voyce.ro/static/js/2.6413ce8f.chunk.js",
-    "static/js/2.6413ce8f.chunk.js.map": "/voyce.ro/static/js/2.6413ce8f.chunk.js.map",
-    "static/js/3.ef5e2dd5.chunk.js": "/voyce.ro/static/js/3.ef5e2dd5.chunk.js",
-    "static/js/3.ef5e2dd5.chunk.js.map": "/voyce.ro/static/js/3.ef5e2dd5.chunk.js.map",
+    "main.js": "/voyce.ro/static/js/main.504ae3c0.chunk.js",
+    "main.js.map": "/voyce.ro/static/js/main.504ae3c0.chunk.js.map",
+    "runtime-main.js": "/voyce.ro/static/js/runtime-main.02e55b8f.js",
+    "runtime-main.js.map": "/voyce.ro/static/js/runtime-main.02e55b8f.js.map",
+    "static/js/2.7284ff56.chunk.js": "/voyce.ro/static/js/2.7284ff56.chunk.js",
+    "static/js/2.7284ff56.chunk.js.map": "/voyce.ro/static/js/2.7284ff56.chunk.js.map",
+    "static/js/3.2dd939b4.chunk.js": "/voyce.ro/static/js/3.2dd939b4.chunk.js",
+    "static/js/3.2dd939b4.chunk.js.map": "/voyce.ro/static/js/3.2dd939b4.chunk.js.map",
     "index.html": "/voyce.ro/index.html",
     "static/css/main.4031e7c9.chunk.css.map": "/voyce.ro/static/css/main.4031e7c9.chunk.css.map",
-    "static/js/2.6413ce8f.chunk.js.LICENSE.txt": "/voyce.ro/static/js/2.6413ce8f.chunk.js.LICENSE.txt",
+    "static/js/2.7284ff56.chunk.js.LICENSE.txt": "/voyce.ro/static/js/2.7284ff56.chunk.js.LICENSE.txt",
     "static/media/FCC 1.a787dca8.bmp": "/voyce.ro/static/media/FCC 1.a787dca8.bmp",
     "static/media/FCC 2.86ad1f94.bmp": "/voyce.ro/static/media/FCC 2.86ad1f94.bmp",
     "static/media/PixelCity.36ee9328.mp4": "/voyce.ro/static/media/PixelCity.36ee9328.mp4",
@@ -22,9 +22,9 @@
     "static/media/utm.10643a42.jpg": "/voyce.ro/static/media/utm.10643a42.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5bc54e64.js",
-    "static/js/2.6413ce8f.chunk.js",
+    "static/js/runtime-main.02e55b8f.js",
+    "static/js/2.7284ff56.chunk.js",
     "static/css/main.4031e7c9.chunk.css",
-    "static/js/main.8978b769.chunk.js"
+    "static/js/main.504ae3c0.chunk.js"
   ]
 }
