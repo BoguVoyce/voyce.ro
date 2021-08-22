@@ -53,10 +53,16 @@
     padding: 10px;
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 }
 .about .card-img{
     border: solid 5px rgba(27, 27, 27, 0.233);
     border-radius: 200px;
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
 }
 .about .img-square-wrapper{
     max-width: 250px;

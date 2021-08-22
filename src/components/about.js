@@ -20,9 +20,9 @@ const About = () => {
                     <div className="card-text">
                         <h3>Hello! I am Bogdan.</h3>
                         <br />
-                        <p>I have been studying Web Development on my own for about 2 years now and I'm really passionate about technology;</p>
-                        <p>I like creating and managing websites, mainly Front-End;</p>
-                        <p>I work with HTML, CSS, JavaScript and have experience with Bootstrap, React.js, npm, Git, GitHub and VSCode.</p>
+                        <p>I've been studying Web Development on my own since 2019, when I started taking the courses at FreeCodeCamp.org, experimenting with creating websites from scratch with HTML/CSS/JS, or with templates in WordPress. Now I continue to learn on Udemy.com;</p>
+                        <p>This year I've been admited to the Titu Maiorescu University in Bucharest - Information Technology;</p>
+                        <p>I'm confident working with HTML, CSS and JavaScript, and have experience with cPanel, React.js, WordPress, Git, GitHub, NPM and VSCode.</p>
                     </div>
                 </div>
             </div>
